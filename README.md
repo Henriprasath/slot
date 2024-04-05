@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date: 30/03/2023
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,6 +24,7 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
 <html>
     <head>
         <title>Saveetha Engineering college</title>
@@ -37,7 +38,7 @@ table,th,td {
     border-style: solid;
 }
 .head{
-    background-color:  #55f799;
+    background-color:  #4f55ef;
 }
 .data{
     text-align: center;
@@ -47,7 +48,7 @@ table,img{
     margin: 20px;
 }
 .cont{
-    background-color: rgb(26, 255, 0);
+    background-color: rgb(229, 36, 36);
 }
         </style>
     </head>
@@ -115,7 +116,7 @@ table,img{
                     <tr>
                         <td>1.</td>
                         <td>19AI305</td>
-                        <td style="color: white;border-color: black;">Advanced C Programming(Adv C)</td>
+                        <td style="color: rgb(14, 14, 14);border-color: black;">Advanced C Programming(Adv C)</td>
                     </tr>
                     <tr>
                         <td>2.</td>
@@ -157,9 +158,9 @@ table,img{
         </center>
     </body>
 </html>
-
+```
 ## OUTPUT
-
+![Screenshot 2024-04-05 133718](https://github.com/Henriprasath/slot/assets/144979077/a9826dbf-af2e-4ec3-8308-3f326ab891b5)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
